@@ -24,7 +24,7 @@ namespace Laboratorio4_Juan_Carlos_Gubbins
             int numero = contador.Next(35, 60);
             if (numero < 50)
             {
-                Console.WriteLine("");
+                Console.WriteLine("...");
             }
             if (numero >= 50)
             {

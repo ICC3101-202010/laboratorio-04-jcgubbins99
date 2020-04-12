@@ -7,6 +7,10 @@ namespace Laboratorio4_Juan_Carlos_Gubbins
     {
         static void Main()
         {
+            Console.WriteLine("....PROBAR VARIAS VECES....");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Thread.Sleep(1500);
             Console.WriteLine("El día ha comenzado");
             Console.WriteLine("=====================");
             Thread.Sleep(1000);
