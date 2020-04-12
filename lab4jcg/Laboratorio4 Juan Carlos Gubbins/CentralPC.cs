@@ -9,7 +9,7 @@ namespace Laboratorio4_Juan_Carlos_Gubbins
         private Control control;
         public CentralPC(Control c)
         {
-            control = c;
+            this.control = c;
         }
 
         public void Operar()
