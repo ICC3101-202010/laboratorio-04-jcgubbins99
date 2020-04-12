@@ -16,7 +16,7 @@ namespace Laboratorio4_Juan_Carlos_Gubbins
         {
             Console.WriteLine("La máquina de recepción ha colapsado, ya no tiene más capacidad");
             Console.WriteLine("");
-            Console.WriteLine("Reiniciando maquina...");
+            Console.WriteLine("Reiniciando máquina...");
             Thread.Sleep(1000);
             Apagado();
             Console.WriteLine("");
