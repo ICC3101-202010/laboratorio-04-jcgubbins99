@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace Laboratorio4_Juan_Carlos_Gubbins
 {
-    class Program
+    class Program //Este codigo funciona con numeros random, si al correrlo este se termina muy pronto probar de nuevo.
     {
         static void Main()
         {
@@ -32,7 +32,7 @@ namespace Laboratorio4_Juan_Carlos_Gubbins
             Console.WriteLine("TODAS LAS MÁQUINAS TIENEN UNA CAPACIDAD MÁXIMA DE 50 PIEZAS");
             Console.WriteLine("============================================================");
             Thread.Sleep(1500);
-
+            Console.WriteLine("Las piezas comenzaron a recorrer las máquinas...");
             c.Revision();
             var random = new Random();
             int accion = 0;
@@ -113,7 +113,7 @@ namespace Laboratorio4_Juan_Carlos_Gubbins
             v.Terminar();
             Thread.Sleep(1000);
             em.Terminar();
-
+            Thread.Sleep(1000);
         }
     }
 }
